@@ -1,4 +1,1 @@
-# Define environment variables
-language: node_js
-node_js:
-  - "7"
+language: minimal
