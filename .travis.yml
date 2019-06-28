@@ -1,1 +1,10 @@
 language: minimal
+env:
+  global:
+    secure: SeNc5wLIDoP8Q8DLZnTT22Vv9TcNHaOPorPS+mj9G7PirxiRZ6h6D46u7yCfAGyFujZAtC0dAMDzwhyHMb35/udMqr5CJyyEKn4KRumPrSJeaE+HO6mVJeO01FpDzf34v1yjqI2xOXU6TyKV8ECvy4LCOBDh2c4mn94IRMLLp7F9eJ9lg0ebRqFnvcNErbo6gp+STvZemROJBIRzFCgZyiIyniLlhePOUYtLAanEFDufWYAoy1aAvCGlvABjdqjBIti6sGYgCO6QQoUz+AWmE9VYUmK9g8jUQNTwERiHb8iCy+iBvEXf6vd3qXONyTTRiA2EyslccotK3ROS8+R45o3o9HpdMg20xeYLTn1hEtPYbY1CI719b7uRTpEELHqubGBJhVVoCQAKxUrAJDmay+yVM9o1ozRiBjW/EPVK79T3nWMAL/rakBB2jFnSF62s/VZMvHFNA0U0iqU5QhVZvOEKKRzT3drDU9InKxK3ySkU0f8aCl+3co4G6QzF+ioBaCbSKdr/Aq/9QU254rmZFvsZNpUhvEYYzLsZlQ925EvEAn2znt4sBd3vciO51tOxk1x69cBHa0hvOa8HPOnirnqkAQGIMo7YB7CAXKS9gjE0fs/A3Eq62JeAzZrS4es6ws3+geA5Ni8unLQVjNme8z3Spa0ObdWUczMe+W1f0w4=
+deploy:
+  provider: s3
+  access_key_id: "AKIAYYVDSYNUFNZZZP6X"
+  bucket: "humansis.org"
+  skip_cleanup: true
+  region: eu-west-1
