@@ -6,7 +6,7 @@ deploy:
     secure: sJkQN4o02QQ7pGtI8AUkgP5RzYjI3uLxaexYCuhDKDs20v3U/sTIQ99OdR4Eb6gV9aESz+qBM6OX0X+IoUf4vCvguCPnu4+7Ta7F73COM5Ha/0zi6ZXnGz1jmHKgLGLDu1QgKmKPbQEeQYP40AA7eTyfHc9kQK854d7+ZAOjsVxwiWLSWDm1Gj7ksaZwqP1fJd78Tvx8VJPD2NUqejb3xuR3QSN5PERzuUEzQOZylwNEOqGXdwn/yvicAd4C+Xac9wxNMmVAv6lHhaBgmwtmwpOR/U5sRhphQQrCEnBeUWEelmTUBgvqfNQMyPyzo2wHSZweV41eqYPYS6rxEqg82NKmkEpZpOCRnSG7wk2WjXBsTgJjuQztHCuheyp7I7gtcQJs0dSnI+nYvm/kSFy30d9lcwITKWowyU3FtGnC1staKOZ7KTAHk6kqyG+atQeKDKIUHb+1JVxJYrDAbybPvdcemNbEL35WRVoDeOkda7CN4MS6RbGtrrHVFn+KP3QtN3VFhCMxZiFdgzqH4T2PUT2coiX9jtmebWNZvY82pBnzL39GSiA2GspkSKhS8t5ZWYvfNz2mZaF7ZnKz9kLglXU+a2DhsMgs2Q/dpT/yF2JAKyxTrYbXJlvVvM+LaqSa9QUOb+ROZOY+OOG+7sTwTMtQy9enRTBP75TctbcjenA=
   bucket: humansis.org
   skip_cleanup: true
-  region: eu-west-1
+  region: eu-central-1
   on:
     branch: master
     condition: type != pull_request
