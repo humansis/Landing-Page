@@ -8,4 +8,4 @@ deploy:
   skip_cleanup: true
   region: eu-west-1
   on:
-    condition: branch = master AND NOT type = "pull_request"
+    condition: "branch = master AND type != pull_request"
